@@ -1,0 +1,262 @@
+.infoPage{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card-info1{
+    width: 100%;
+    max-width: 1116px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 2px 16px 0px #00000026;
+
+}
+.poke-header1{
+    background-color: #999;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+}
+.poke-image1{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.5em;
+}
+.poke-id{
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid #D3D3D3;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.poke-name1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 0.2em;
+}
+.poke-caract{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 1.5em 0.2em;
+}
+.poke-weight{
+    display: grid;
+    gap: 0.5em;
+    justify-items: center;
+}
+.poke-weight-name{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0F0F2D;
+}
+.poke-weight-value{
+    font-weight: 500;
+    font-size: 25px;
+    color: #0F0F2D;
+}
+.poke-bloque2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 20px;
+    gap: 10px;
+    margin-left: 60px;
+}
+.poke-bloque-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #302F2F;
+}
+.poke-bloque-name1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+.poke-bloque-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 207px;
+    height: 47px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: white;
+}
+.grass-back{
+    background-color: #7cc9a7;
+}
+.poison-back{
+    background-color: #72489c;
+}
+.fire-back{
+    background-color: #d66840;
+}
+.water-back{
+    background-color: #2c81f0 ;
+}
+.bug-back{
+    background-color: #62DB60;
+}
+.normal-back{
+    background-color: #735259;
+}
+.fighting-back{
+    background-color: #96402A;
+}
+.ghost-back{
+    background-color:#323569 ;
+}
+.rock-back{
+    background-color: #9c9ca5 ;
+}
+.dark-back{
+    background-color:#030706 ;
+}
+.ice-back{
+    background-color: #6FBEDF;
+}
+.steel-back{
+    background-color: #728881;
+}
+.dragon-back{
+    background-color: #56A4AE;
+}
+.fairy-back{
+    background-color: #C23867 ;
+}
+.electric-back{
+    background-color: #2B319B ;
+}
+.ground-back{
+    background-color: #654008 ;
+}
+.psychic-back{
+    background-color: #D13E3E ;
+}
+.poke-bloque-name{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+.poke-bloque-info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D3D3D3;
+    color: #302F2F;
+    max-width: 207px;
+    height: 47px;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.poke-stats{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.poke-stats-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #302F2F;
+}
+.poke-stats-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.poke-stats-name{
+    font-weight: 600;
+    font-size: 24px;
+    color: #302F2F;
+    text-transform: capitalize;
+}
+.poke-stats-value{
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    font-size: 20px;
+    color:#302F2F;
+}
+.poke-container{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 34px;
+    border-radius: 4px;
+}
+.poke-valor{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    width: 30%;
+    height: 100%;
+    border-radius: 4px;
+}
+.poke-valor2{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    width: 32.6%;
+    height: 100%;
+    border-radius: 4px;
+}
+.poke-valor3{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    width: 32.6%;
+    height: 100%;
+    border-radius: 4px;
+}
+.poke-valor4{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    width: 30%;
+    height: 100%;
+    border-radius: 4px;
+}
+.card-info2{
+    width: 100%;
+    max-width: 1116px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 2px 16px 0px #00000026;
+    margin-bottom: 50px;
+}
+.poke-moves-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #302F2F;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.poke-moves{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    row-gap: 10px;
+}
+.poke-moves-name{
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 24px;
+    text-transform: capitalize;
+}

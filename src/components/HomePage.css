@@ -1,0 +1,44 @@
+.homePage {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1f;
+    justify-items: center;
+}
+.home-title{
+    position: relative;
+    height: 100px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.home-welcome{
+    font-size: 40px;
+    color: #FE1936;
+}
+.home-p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #302F2F;
+}
+.home-form{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px 0px #00000026;
+}
+.home-input{
+    border-color: #cccccc;
+}
+.home-btn{
+    background: #D93F3F;
+    color: white;
+}
+
+
